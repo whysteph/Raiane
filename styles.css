@@ -1,0 +1,36 @@
+body{
+    color: darkslateblue;
+    background:darkslateblue;
+    margin: 0px;
+    font-family: "DM Serif Text", serif;
+}
+header{
+    border-bottom: solid 2px darkslateblue;
+    padding: 20px;
+    font-size: 32px;
+    color: darkslateblue;
+}
+.chamada{
+    background: lightcoral;
+    padding-bottom: 80px;
+    padding-top: 80px;
+    display: flex;
+    justify-content: center;
+}
+.chamada-texto{
+    margin-rigth: 5%;
+}
+img{
+    height: 200px;
+}
+.categoria-videos{
+    display:flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+    color: black;
+
+}
